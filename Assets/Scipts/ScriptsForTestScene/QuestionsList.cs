@@ -4,13 +4,31 @@ using UnityEngine;
 
 public class QuestionsList : MonoBehaviour
 {
-    [SerializeField] private List<Question> questions;
+    [SerializeField] private List<GameObject> questions;
 
     public void ChangeInteractabilityForTogglesInQuestions(bool IsInteractable)
     {
-        foreach (Question question in questions)
+        foreach (GameObject question in questions)
         {
-            question.ChangeInteractabilityForToggles(IsInteractable);
+            if (question.GetComponent<Question>() != null) question.GetComponent<Question>().ChangeInteractabilityForToggles(IsInteractable);
+        }
+    }
+
+    public void ShuffleQuestions()
+    {
+        for (int i = 0; i < questions.Count; i++)
+        {
+            GameObject temp = questions[i];
+            int randomIndex = Random.Range(i, questions.Count);
+            questions[i] = questions[randomIndex];
+            questions[randomIndex] = temp;
+        }
+
+        // Применение перемешанного порядка к иерархии
+        for (int i = 0; i < questions.Count; i++)
+        {
+            questions[i].transform.SetSiblingIndex(i);
+            questions[i].GetComponent<Question>().ShuffleAnswers();
         }
     }
 }
