@@ -651,7 +651,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!222 &3620180105740445550
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2128,7 +2128,7 @@ MonoBehaviour:
   summOfPointsForTest: {fileID: 11400000, guid: ee29262be9dedc943bc8fc98fe241afb, type: 2}
   questionText: {fileID: 3620180106621038077}
   rightAnswers: 01000000
-  rightAnswerCost: 4
+  rightAnswerCost: 1
   crest: {fileID: 21300000, guid: 2d6e3be615db43c49ae802c74eab9342, type: 3}
   greenArrow: {fileID: 21300000, guid: 82d77ee5daf8e0c4e99593a5a25a6cc2, type: 3}
   redCircle: {fileID: 21300000, guid: 5836d7a638ca1fc46bebed5ef37a79c4, type: 3}

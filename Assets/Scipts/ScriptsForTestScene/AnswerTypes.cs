@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class AnswerTypes : MonoBehaviour
 {
     [SerializeField] private GameObject question;
-    [SerializeField] static private int pointsForAnswer;
+    [SerializeField] private int pointsForAnswer;
     [SerializeField] public SummOfPointsSO summOfPointsForTest;
     [SerializeField] private TypesOfAnswer typesOfAnswer;
     [SerializeField] private Image checkmark;

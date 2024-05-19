@@ -13,7 +13,6 @@ public class Question : MonoBehaviour
     [SerializeField] public int id;
     [SerializeField] public SummOfPointsSO summOfPointsForTest;
     [SerializeField] private TMP_Text questionText;
-    [SerializeField] private int[] rightAnswers;
     [SerializeField] public int rightAnswerCost = 1;
     [SerializeField] private Sprite crest;
     [SerializeField] private Sprite greenArrow;
@@ -24,11 +23,11 @@ public class Question : MonoBehaviour
 
     [SerializeField] private List<GameObject> answers;
 
-    private void Awake()
+    /*private void Awake()
     {
         ShuffleAnswers();
     }
-
+*/
     public void ChangeInteractabilityForToggles(bool IsInteractable)
     {
         foreach (var answer in answers)

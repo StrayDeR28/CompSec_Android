@@ -225,7 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 1312552549136836191}
   summOfPointsForTest: {fileID: 0}
-  typesOfAnswer: 2
+  typesOfAnswer: 1
   checkmark: {fileID: 1312552549574270080}
 --- !u!1 &1312552547787959850
 GameObject:
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 1312552549136836191}
   summOfPointsForTest: {fileID: 0}
-  typesOfAnswer: 2
+  typesOfAnswer: 0
   checkmark: {fileID: 1312552548410327008}
 --- !u!1 &1312552549136836191
 GameObject:
@@ -1246,8 +1246,7 @@ MonoBehaviour:
   id: 1
   summOfPointsForTest: {fileID: 11400000, guid: ee29262be9dedc943bc8fc98fe241afb, type: 2}
   questionText: {fileID: 1312552549547805187}
-  rightAnswers: 01000000
-  rightAnswerCost: 1
+  rightAnswerCost: 2
   crest: {fileID: 21300000, guid: 2d6e3be615db43c49ae802c74eab9342, type: 3}
   greenArrow: {fileID: 21300000, guid: 82d77ee5daf8e0c4e99593a5a25a6cc2, type: 3}
   redCircle: {fileID: 21300000, guid: 5836d7a638ca1fc46bebed5ef37a79c4, type: 3}
@@ -2092,5 +2091,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 1312552549136836191}
   summOfPointsForTest: {fileID: 0}
-  typesOfAnswer: 2
+  typesOfAnswer: 1
   checkmark: {fileID: 1312552548178921681}
