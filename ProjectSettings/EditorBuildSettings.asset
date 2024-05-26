@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Book.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SceneForTest.unity
+    guid: 6eac4f8af07402149b7398e5d07f09e7
+  - enabled: 1
+    path: Assets/Scenes/TempScene.unity
+    guid: 1bf36e9dcbc56e342a1872c0b7420bd7
   m_configObjects: {}
