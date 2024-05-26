@@ -6,6 +6,10 @@ public class QuestionsList : MonoBehaviour
 {
     [SerializeField] private List<GameObject> questions;
 
+    private void Awake()
+    {
+        ShuffleQuestions();
+    }
     public void ChangeInteractabilityForTogglesInQuestions(bool IsInteractable)
     {
         foreach (GameObject question in questions)

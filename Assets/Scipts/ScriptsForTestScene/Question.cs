@@ -23,11 +23,11 @@ public class Question : MonoBehaviour
 
     [SerializeField] private List<GameObject> answers;
 
-    /*private void Awake()
+    private void Awake()
     {
         ShuffleAnswers();
     }
-*/
+
     public void ChangeInteractabilityForToggles(bool IsInteractable)
     {
         foreach (var answer in answers)

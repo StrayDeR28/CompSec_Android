@@ -7,7 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private ScenesEnum LoadNextScene = ScenesEnum.MainScene;
     private string sceneName = "MainScene";
-    [SerializeField] private enum ScenesEnum { None = 0, MainScene = 1, TestScene = 2, TempScene = 3 };
+    [SerializeField] private enum ScenesEnum { None = 0, MainScene = 1, SceneForTest = 2, TempScene = 3 };
 
     public void LoadScene()
     {
@@ -17,8 +17,8 @@ public class SceneLoader : MonoBehaviour
                 sceneName = "MainScene";
                 SceneManager.LoadScene(sceneName);
             break;
-            case ScenesEnum.TestScene:
-                sceneName = "TestScene";
+            case ScenesEnum.SceneForTest:
+                sceneName = "SceneForTest";
                 SceneManager.LoadScene(sceneName);
             break;
             case ScenesEnum.TempScene:
