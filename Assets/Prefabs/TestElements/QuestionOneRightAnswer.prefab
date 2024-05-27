@@ -327,7 +327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b475ea12a546024eb18e6ec17206749, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 099970c045c475141926ac5c0c3972e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b475ea12a546024eb18e6ec17206749, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 099970c045c475141926ac5c0c3972e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -699,6 +699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
+  pointsForAnswer: 0
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 2
   checkmark: {fileID: 3620180106597235582}
@@ -1142,6 +1143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
+  pointsForAnswer: 0
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 0
   checkmark: {fileID: 3620180105836097692}
@@ -1212,7 +1214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b475ea12a546024eb18e6ec17206749, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 099970c045c475141926ac5c0c3972e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1289,7 +1291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b475ea12a546024eb18e6ec17206749, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 099970c045c475141926ac5c0c3972e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1447,6 +1449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
+  pointsForAnswer: 0
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 2
   checkmark: {fileID: 3620180105881235247}
@@ -1977,6 +1980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
+  pointsForAnswer: 0
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 2
   checkmark: {fileID: 3620180105105922078}
@@ -2048,14 +2052,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
+  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 8c5db225f20d29d4a902ca4dde4fe7f5, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2078,8 +2082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 25
-    m_Right: 25
+    m_Left: 50
+    m_Right: 50
     m_Top: 50
     m_Bottom: 50
   m_ChildAlignment: 4
@@ -2127,7 +2131,6 @@ MonoBehaviour:
   id: 1
   summOfPointsForTest: {fileID: 11400000, guid: ee29262be9dedc943bc8fc98fe241afb, type: 2}
   questionText: {fileID: 3620180106621038077}
-  rightAnswers: 01000000
   rightAnswerCost: 1
   crest: {fileID: 21300000, guid: 2d6e3be615db43c49ae802c74eab9342, type: 3}
   greenArrow: {fileID: 21300000, guid: 82d77ee5daf8e0c4e99593a5a25a6cc2, type: 3}
