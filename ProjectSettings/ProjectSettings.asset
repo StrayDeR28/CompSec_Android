@@ -757,11 +757,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 1c582ced-e78e-4d8d-8158-533df09e2a69
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: CompSec_Android
+  organizationId: strayder_n7
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
