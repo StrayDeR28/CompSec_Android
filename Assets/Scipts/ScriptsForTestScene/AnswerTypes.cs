@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +8,7 @@ public class AnswerTypes : MonoBehaviour
 {
     [SerializeField] private GameObject question;
     [SerializeField] private int pointsForAnswer;
+    [SerializeField] private TMP_Text answerText;
     [SerializeField] public SummOfPointsSO summOfPointsForTest;
     [SerializeField] private TypesOfAnswer typesOfAnswer;
     [SerializeField] private Image checkmark;
@@ -15,8 +17,27 @@ public class AnswerTypes : MonoBehaviour
 
     private void Awake()
     {
-        pointsForAnswer = question.GetComponent<Question>().rightAnswerCost;
+        //answerText.text = gameObject.GetComponentInChildren<TMP_Text>().text;// скорее всего не получится из-за Instantiate, лучше вручную задать в префабе
+        pointsForAnswer = question.GetComponent<Question>().rightAnswerCost;//тут дублирование...
         summOfPointsForTest = question.GetComponent<Question>().summOfPointsForTest;
+    }
+
+    public void SetDataFromSO(int pointsForAnswerFromSo, string answerTextFromSO, string typesOfAnswerFromSO)
+    {
+        pointsForAnswer = pointsForAnswerFromSo;
+        answerText.text = answerTextFromSO;
+        switch (typesOfAnswerFromSO)
+        {
+            case "None":
+                typesOfAnswer = TypesOfAnswer.None; 
+            break;
+            case "Add":
+                typesOfAnswer = TypesOfAnswer.Add;
+            break;
+            case "Sub":
+                typesOfAnswer = TypesOfAnswer.Sub;
+            break;
+        }
     }
 
     public void CountPoints()
