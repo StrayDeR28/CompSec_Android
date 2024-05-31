@@ -225,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 1312552549136836191}
   pointsForAnswer: 0
+  answerText: {fileID: 1312552548545466741}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 1
   checkmark: {fileID: 1312552549574270080}
@@ -1099,6 +1100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 1312552549136836191}
   pointsForAnswer: 0
+  answerText: {fileID: 1312552549615743971}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 0
   checkmark: {fileID: 1312552548410327008}
@@ -1563,6 +1565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 1312552549136836191}
   pointsForAnswer: 0
+  answerText: {fileID: 1312552548628744653}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 0
   checkmark: {fileID: 1312552547680671586}
@@ -2094,6 +2097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 1312552549136836191}
   pointsForAnswer: 0
+  answerText: {fileID: 1312552548047268937}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 1
   checkmark: {fileID: 1312552548178921681}

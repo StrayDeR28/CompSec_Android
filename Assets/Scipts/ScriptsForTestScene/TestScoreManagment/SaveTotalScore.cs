@@ -6,11 +6,11 @@ public class SaveTotalScore : MonoBehaviour
 {
     [SerializeField] public SummOfPointsSO summOfPointsForTest1;
 
-    private void Awake() //для очистки
+/*    private void Awake() //для очистки
     {
         PlayerPrefs.DeleteKey("TotalPointsForTest1");
 
-    }
+    }*/
     public void SaveTotalPoints()//тут можно передавать но id тестов, но у нас он один
     {
         if (PlayerPrefs.HasKey("TotalPointsForTest1"))

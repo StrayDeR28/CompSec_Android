@@ -23,9 +23,37 @@ public class Question : MonoBehaviour
 
     [SerializeField] private List<GameObject> answers;
 
-    private void Awake()
+/*    private void Awake()
     {
         ShuffleAnswers();
+    }
+*/
+    public void SetQuestionDataFromSO(QuestionDataSO questionDataSO)
+    {
+        switch (questionDataSO.questionType)//передали тип
+        {
+            case "OneRightAnswer":
+                typeOfQuestion = TypeOfQuestion.OneRightAnswer;
+            break;
+            case "TwoRightAnswers":
+                typeOfQuestion= TypeOfQuestion.TwoRightAnswers;
+            break;
+            default:
+                typeOfQuestion = TypeOfQuestion.OneRightAnswer;
+            break;
+        }
+        questionText.text = questionDataSO.questionText;
+        id = questionDataSO.id;
+        rightAnswerCost = questionDataSO.rightAnswerCost;
+        summOfPointsForTest = questionDataSO.summOfPointsSO;
+        for(int i = 0; i < answers.Count; i++)
+        {
+            if (answers[i].GetComponent<AnswerTypes>() != null)
+            {
+                answers[i].GetComponent<AnswerTypes>().SetDataFromSO( questionDataSO.rightAnswerCost, questionDataSO.answersText[i], questionDataSO.answersType[i]);
+            }
+            else print("Error in Answer list. Current element:" + answers[i]);
+        }
     }
 
     public void ChangeInteractabilityForToggles(bool IsInteractable)

@@ -700,6 +700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
   pointsForAnswer: 0
+  answerText: {fileID: 3620180105509713547}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 2
   checkmark: {fileID: 3620180106597235582}
@@ -1144,6 +1145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
   pointsForAnswer: 0
+  answerText: {fileID: 3620180105391599155}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 0
   checkmark: {fileID: 3620180105836097692}
@@ -1450,6 +1452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
   pointsForAnswer: 0
+  answerText: {fileID: 3620180106009742263}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 2
   checkmark: {fileID: 3620180105881235247}
@@ -1981,6 +1984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: {fileID: 3620180107032002977}
   pointsForAnswer: 0
+  answerText: {fileID: 3620180106554676253}
   summOfPointsForTest: {fileID: 0}
   typesOfAnswer: 2
   checkmark: {fileID: 3620180105105922078}
@@ -2136,7 +2140,7 @@ MonoBehaviour:
   greenArrow: {fileID: 21300000, guid: 82d77ee5daf8e0c4e99593a5a25a6cc2, type: 3}
   redCircle: {fileID: 21300000, guid: 5836d7a638ca1fc46bebed5ef37a79c4, type: 3}
   greenCircle: {fileID: 21300000, guid: 0745107624fe0544f9101ded1c2bb934, type: 3}
-  defaultArrow: {fileID: 21300000, guid: 9d48ed491f1dda545adadb47509e6798, type: 3}
+  defaultArrow: {fileID: 21300000, guid: f940fa86d286561478226fbce5daf263, type: 3}
   defaultCircle: {fileID: 21300000, guid: 0d995d82375715641994542753dac1c5, type: 3}
   answers:
   - {fileID: 3620180106197656500}

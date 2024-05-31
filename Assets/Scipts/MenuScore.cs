@@ -5,10 +5,10 @@ public class MenuScore : MonoBehaviour
 {
     [SerializeField] TMP_Text score;
 
-    // private void Awake() //для очистки
-    // {
-    //     PlayerPrefs.DeleteKey("TotalPointsForTest1");
-    // }
+    /*private void Awake() //для очистки
+    {
+         PlayerPrefs.DeleteKey("TotalPointsForTest1");
+    }*/
     void Start()
     {
         if (PlayerPrefs.HasKey("TotalPointsForTest1"))
