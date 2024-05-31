@@ -30,5 +30,5 @@ MonoBehaviour:
   - Sub
   - Add
   - Sub
-  id: 11
+  id: 101
   summOfPointsSO: {fileID: 11400000, guid: ee29262be9dedc943bc8fc98fe241afb, type: 2}

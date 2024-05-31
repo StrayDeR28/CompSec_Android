@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Easy1
   m_EditorClassIdentifier: 
   questionType: QuestionOneRightAnswer
-  questionText: "<b>TEST\u0421\u043A\u0438\u043C\u043C\u0438\u043D\u0433 - \u044D\u0442\u043E
+  questionText: "<b>\u0421\u043A\u0438\u043C\u043C\u0438\u043D\u0433 - \u044D\u0442\u043E
     \u2026</b>"
   rightAnswerCost: 1
   answersText:
