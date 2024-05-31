@@ -17,35 +17,43 @@ public class QuestionsList : MonoBehaviour
 
     private void Awake()
     {
+        List<QuestionDataSO> currentQuestionList = new List<QuestionDataSO>(easyQuestionsDataList);
         for (int i = 0; i < easyQuestionsCount; i++)
         {
-            if (i >= easyQuestionsDataList.Count || easyQuestionsDataList[i] == null)
+            if (currentQuestionList.Count == 0)
             {
                 print("Not Enough Questions");
                 break;
             }
-            int randomElementNumber = Random.Range(0, easyQuestionsDataList.Count);//будем спавнить 10 случайных элементов из списка
-            InstantiatePrefab(randomElementNumber, "Easy", easyQuestionsDataList, i);
+            int randomElementNumber = Random.Range(0, currentQuestionList.Count);//будем спавнить 10 случайных элементов из списка
+            InstantiatePrefab(randomElementNumber, "Easy", currentQuestionList, i);
+            currentQuestionList.RemoveAt(randomElementNumber);
         }
+
+        currentQuestionList = new List<QuestionDataSO>(mediumQuestionsDataList);
         for (int i = 0; i < mediumQuestionsCount; i++)
         {
-            if (i >= mediumQuestionsDataList.Count || mediumQuestionsDataList[i] == null)
+            if (currentQuestionList.Count == 0)
             {
                 print("Not Enough Questions");
                 break;
             }
-            int randomElementNumber = Random.Range(0, mediumQuestionsDataList.Count);
-            InstantiatePrefab(randomElementNumber, "Medium", mediumQuestionsDataList, i);
+            int randomElementNumber = Random.Range(0, currentQuestionList.Count);
+            InstantiatePrefab(randomElementNumber, "Medium", currentQuestionList, i);
+            currentQuestionList.RemoveAt(randomElementNumber);
         }
+
+        currentQuestionList = new List<QuestionDataSO>(hardQuestionsDataList);
         for (int i = 0; i < hardQuestionsCount; i++)
         {
-            if (i >= hardQuestionsDataList.Count || hardQuestionsDataList[i] == null)
+            if (currentQuestionList.Count == 0)
             {
                 print("Not Enough Questions");
                 break;
             }
-            int randomElementNumber = Random.Range(0, hardQuestionsDataList.Count);
-            InstantiatePrefab(randomElementNumber, "Hard", hardQuestionsDataList, i);
+            int randomElementNumber = Random.Range(0, currentQuestionList.Count);
+            InstantiatePrefab(randomElementNumber, "Hard", currentQuestionList, i);
+            currentQuestionList.RemoveAt(randomElementNumber);
         }
         //После создания всех вопросов
         for (int i = 0; i < gameObject.transform.childCount; i++)
