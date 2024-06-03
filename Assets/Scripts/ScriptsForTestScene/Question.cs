@@ -23,34 +23,34 @@ public class Question : MonoBehaviour
 
     [SerializeField] private List<GameObject> answers;
 
-/*    private void Awake()
-    {
-        ShuffleAnswers();
-    }
-*/
+    /*    private void Awake()
+        {
+            ShuffleAnswers();
+        }
+    */
     public void SetQuestionDataFromSO(QuestionDataSO questionDataSO)
     {
         switch (questionDataSO.questionType)//передали тип
         {
-            case "OneRightAnswer":
+            case "QuestionOneRightAnswer":
                 typeOfQuestion = TypeOfQuestion.OneRightAnswer;
-            break;
-            case "TwoRightAnswers":
-                typeOfQuestion= TypeOfQuestion.TwoRightAnswers;
-            break;
+                break;
+            case "QuestionTwoRightAnswer":
+                typeOfQuestion = TypeOfQuestion.TwoRightAnswers;
+                break;
             default:
                 typeOfQuestion = TypeOfQuestion.OneRightAnswer;
-            break;
+                break;
         }
         questionText.text = questionDataSO.questionText;
         id = questionDataSO.id;
         rightAnswerCost = questionDataSO.rightAnswerCost;
         summOfPointsForTest = questionDataSO.summOfPointsSO;
-        for(int i = 0; i < answers.Count; i++)
+        for (int i = 0; i < answers.Count; i++)
         {
             if (answers[i].GetComponent<AnswerTypes>() != null)
             {
-                answers[i].GetComponent<AnswerTypes>().SetDataFromSO( questionDataSO.rightAnswerCost, questionDataSO.answersText[i], questionDataSO.answersType[i]);
+                answers[i].GetComponent<AnswerTypes>().SetDataFromSO(questionDataSO.rightAnswerCost, questionDataSO.answersText[i], questionDataSO.answersType[i]);
             }
             else print("Error in Answer list. Current element:" + answers[i]);
         }
@@ -60,7 +60,7 @@ public class Question : MonoBehaviour
     {
         foreach (var answer in answers)
         {
-            if (answer.GetComponent<Toggle>() != null) 
+            if (answer.GetComponent<Toggle>() != null)
             {
                 if (!IsInteractable) answer.GetComponent<Toggle>().interactable = false;
                 else answer.GetComponent<Toggle>().interactable = true;

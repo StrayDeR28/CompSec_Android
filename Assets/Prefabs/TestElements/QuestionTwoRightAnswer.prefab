@@ -379,15 +379,15 @@ MonoBehaviour:
     \u043D\u043E\u043C\u0435\u0440\u0443, \u0438\u043B\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u044C\u0441\u044F
     \u043B\u0438\u0447\u043D\u043E. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
+  m_sharedMaterial: {fileID: -5910732819535704148, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283453520
+  m_fontColor: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -668,15 +668,15 @@ MonoBehaviour:
   m_text: "\u041F\u043E\u043C\u043E\u0447\u044C \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0443
     \u0438 \u043F\u0435\u0440\u0435\u0432\u0435\u0441\u0442\u0438 \u0434\u0435\u043D\u044C\u0433\u0438.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
+  m_sharedMaterial: {fileID: -5910732819535704148, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283453520
+  m_fontColor: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -807,15 +807,15 @@ MonoBehaviour:
     \u0447\u0442\u043E \u043D\u0435\u0447\u0435\u043C \u0441\u0435\u0439\u0447\u0430\u0441
     \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u043F\u043E\u043C\u043E\u0447\u044C."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
+  m_sharedMaterial: {fileID: -5910732819535704148, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283453520
+  m_fontColor: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+  m_Color: {r: 0.90588236, g: 0.90588236, b: 0.90588236, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1665,15 +1665,15 @@ MonoBehaviour:
     \u0443\u0441\u043A\u043E\u0440\u0438\u0442\u044C. \u041A\u0430\u043A \u043F\u043E\u0441\u0442\u0443\u043F\u0438\u0442\u044C
     \u041D\u0438\u043A\u043E\u043B\u0430\u044E?</b>"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
+  m_sharedMaterial: {fileID: -5910732819535704148, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283453520
+  m_fontColor: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1881,15 +1881,15 @@ MonoBehaviour:
     \u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u0431\u044B\u043B \u043E\u0434\u0435\u0442
     \u0432\u0447\u0435\u0440\u0430, \u0441 \u043A\u0435\u043C \u043E\u0431\u0449\u0430\u043B\u0441\u044F."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
+  m_sharedMaterial: {fileID: -5910732819535704148, guid: 9da44b526a5251843b401cf31d2d8f9d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283453520
+  m_fontColor: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
